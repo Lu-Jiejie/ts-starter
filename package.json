@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.0.0",
+    "@lu-jiejie/utils": "^0.0.2",
     "@types/node": "^20.9.3",
     "bumpp": "^9.2.0",
     "eslint": "^8.54.0",
