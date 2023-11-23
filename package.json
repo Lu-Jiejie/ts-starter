@@ -47,7 +47,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.0.0",
-    "@lu-jiejie/utils": "^0.0.2",
     "@types/node": "^20.9.3",
     "bumpp": "^9.2.0",
     "eslint": "^8.54.0",
@@ -55,5 +54,8 @@
     "typescript": "^5.3.2",
     "unbuild": "^2.0.0",
     "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "@lu-jiejie/utils": "^0.0.2"
   }
 }
