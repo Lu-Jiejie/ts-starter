@@ -39,11 +39,12 @@
     "dev": "unbuild --stub",
     "build": "unbuild",
     "lint": "eslint .",
-    "lint:fix": "pnpm run lint --fix",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "nr build",
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.1.0",
@@ -51,11 +52,19 @@
     "bumpp": "^9.2.0",
     "eslint": "^8.54.0",
     "esno": "^4.0.0",
+    "lint-staged": "^15.1.0",
+    "simple-git-hooks": "^2.9.0",
     "typescript": "^5.3.2",
     "unbuild": "^2.0.0",
     "vitest": "^0.34.6"
   },
   "dependencies": {
     "@lu-jiejie/utils": "^0.0.2"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
