@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@lu-jiejie/utils':
-    specifier: ^0.0.2
-    version: 0.0.2
-
 devDependencies:
   '@antfu/eslint-config':
     specifier: ^2.8.2
@@ -682,10 +677,6 @@ packages:
       string-argv: 0.3.2
       type-detect: 4.0.8
     dev: true
-
-  /@lu-jiejie/utils@0.0.2:
-    resolution: {integrity: sha512-rRcOfKvBTohediS7kcx1eGMjhzwI1xGFH6upb3ei+tuNusGtK6CJK6iIpvaOaR3zw8hSFovz+JHetDh8thM/yA==}
-    dev: false
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}

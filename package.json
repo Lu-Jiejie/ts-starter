@@ -58,9 +58,6 @@
     "unbuild": "^2.0.0",
     "vitest": "^0.34.6"
   },
-  "dependencies": {
-    "@lu-jiejie/utils": "^0.0.2"
-  },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
   },
