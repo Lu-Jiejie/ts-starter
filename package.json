@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.10.5",
-  "description": "一些描述",
+  "description": "pkg-description",
   "author": "LU-JIEJIE",
   "license": "MIT",
   "homepage": "https://github.com/LU-JIEJIE/pkg-name#readme",
