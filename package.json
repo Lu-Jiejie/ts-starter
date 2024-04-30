@@ -2,16 +2,16 @@
   "name": "pkg-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.0.2",
+  "packageManager": "pnpm@9.0.6",
   "description": "pkg-description",
-  "author": "LU-JIEJIE",
+  "author": "Lu-Jiejie <lu-jiejie@outlook.com>",
   "license": "MIT",
-  "homepage": "https://github.com/LU-JIEJIE/pkg-name#readme",
+  "homepage": "https://github.com/Lu-Jiejie/pkg-name#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LU-JIEJIE/pkg-name.git"
+    "url": "git+https://github.com/Lu-Jiejie/pkg-name.git"
   },
-  "bugs": "https://github.com/LU-JIEJIE/pkg-name/issues",
+  "bugs": "https://github.com/Lu-Jiejie/pkg-name/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -47,14 +47,14 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.8.2",
-    "@types/node": "^20.11.27",
-    "bumpp": "^9.4.0",
+    "@antfu/eslint-config": "^2.16.0",
+    "@types/node": "^20.12.7",
+    "bumpp": "^9.4.1",
     "eslint": "^8.57.0",
     "esno": "^4.7.0",
     "lint-staged": "^15.2.2",
-    "simple-git-hooks": "^2.10.0",
-    "typescript": "^5.4.2",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
     "vitest": "^0.34.6"
   },
