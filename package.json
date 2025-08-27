@@ -15,35 +15,24 @@
   "keywords": [],
   "sideEffects": false,
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
-    }
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist/*",
-        "./dist/index.d.ts"
-      ]
-    }
-  },
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "unbuild --stub",
-    "build": "unbuild",
+    "dev": "tsdown --watch",
+    "build": "tsdown",
     "lint": "eslint .",
     "release": "bumpp && npm publish",
     "start": "tsx src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "nr build",
+    "prepublishOnly": "npm run build",
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
@@ -53,9 +42,9 @@
     "eslint": "^9.34.0",
     "lint-staged": "^16.1.5",
     "simple-git-hooks": "^2.13.1",
+    "tsdown": "^0.14.2",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",
-    "unbuild": "^3.6.1",
     "vitest": "^3.2.4"
   },
   "simple-git-hooks": {
