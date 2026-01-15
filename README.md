@@ -7,6 +7,10 @@
 
 pkg-description
 
+## For auto publishing to npmjs.com from GitHub Actions
+1. Run `pnpm publish` first to create the package on npmjs.com.
+2. Connect with GitHub repo on `https://www.npmjs.com/package/pkg-name/access`
+
 <!-- Badge -->
 [npm-version-badge]: https://img.shields.io/npm/v/pkg-name?style=flat&color=ddd&labelColor=444
 [npm-version-href]: https://www.npmjs.com/package/pkg-name
